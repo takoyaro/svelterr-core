@@ -100,5 +100,6 @@
         background-color:rgba(60,60,60,0.9)  !important;
         padding:8px !important;
         border-radius: 5px !important;
+        color:white;
     }
 </style>
