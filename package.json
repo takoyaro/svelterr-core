@@ -1,0 +1,25 @@
+{
+  "name": "svelterr-core",
+  "version": "0.0.5",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "preview": "svelte-kit preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch"
+  },
+  "devDependencies": {
+    "@sveltejs/kit": "next",
+    "retrace": "^1.0.0",
+    "svelte": "^3.42.6",
+    "svelte-check": "^2.2.6",
+    "svelte-preprocess": "^4.9.4",
+    "svelte2tsx": "^0.4.7",
+    "tslib": "^2.3.1",
+    "typescript": "^4.4.3"
+  },
+  "type": "module",
+  "exports":{
+    ".":"./SveltErr.svelte"
+  }
+}
